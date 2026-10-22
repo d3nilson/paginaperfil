@@ -10,6 +10,5 @@ Programação Web.
 - Git
 - GitHub
 ## Captura das Evidências
-![Captura de tela da minha segunda página Web](01.png)
 ![Captura de tela da minha segunda página Web](02.png)
 ![Captura de tela da minha segunda página Web](03.png)

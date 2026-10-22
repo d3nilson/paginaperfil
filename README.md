@@ -3,7 +3,7 @@ HTML
 Nome: Denilson da Silva Oliveira
 ## Sobre a atividade
 Esta é minha segunda página desenvolvida na disciplina<br>
-*Acrescentado a sessão contato na página
+*Acrescentado a sessão contato na página<br>
 Programação Web.
 ## Tecnologias utilizadas
 - HTML

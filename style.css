@@ -1,0 +1,155 @@
+header {
+  background-color: #f0eaea;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*título*/
+
+h1,h2{
+    color: rgb(13, 14, 13);
+}
+
+
+
+/*Menu*/
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f0eaea;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+  
+ 
+}
+
+
+ul.menu li a {
+  display: block;
+  color: rgb(15, 15, 15);
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+ul.menu li a:hover:not(.fixo) {
+  background-color: #96ffb9;
+}
+
+ul.menu li a.fixo {
+  background-color: #96ffb9;
+}
+
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+
+/*Imagem*/
+.img{
+    width: 180px;
+    border-radius: 50%;
+    
+
+}
+
+/*botoes*/
+.btn {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20%;
+    font-weight: bold;
+}
+
+.btn a {
+    color: rgb(15, 15, 15);
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.btn a:hover {
+    background-color: #96ffb9;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+
+
+
+/*formulario*/
+
+form {
+  border-radius: 5px;
+  background-color: #b96f6f;
+  padding: 20px;
+  font-size: 20px;
+ 
+}
+
+.int ul{
+    list-style-type: none;
+    text-align: center;
+       
+}
+
+.t1 {
+    font-weight: bold;
+  
+}
+
+
+/* Estilo base para todos os inputs de texto */
+input[type="text"],
+input[type="email"],
+textarea#mensagem{
+  width: 20%;
+  padding: 12px 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 12px;
+  outline: none; /* Remove a borda padrão do navegador */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Quando o usuário clica ou digita no input (foco) */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea#mensagem:focus {
+  border-color: #96ffb9;
+  box-shadow: 0 0 10px #000000;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #f0eaea;
+}

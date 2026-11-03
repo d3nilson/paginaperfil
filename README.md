@@ -4,6 +4,7 @@ Nome: Denilson da Silva Oliveira
 ## Sobre a atividade
 Esta é minha segunda página desenvolvida na disciplina<br>
 *Acrescentado a sessão contato na página<br>
+*Acrescentado css na página.
 Programação Web.
 ## Tecnologias utilizadas
 - HTML
@@ -12,3 +13,5 @@ Programação Web.
 ## Captura das Evidências
 ![Captura de tela da minha segunda página Web](02.png)
 ![Captura de tela da minha segunda página Web](03.png)
+![Captura de tela da minha segunda página Web](04.png)
+![Captura de tela da minha segunda página Web](05.png)

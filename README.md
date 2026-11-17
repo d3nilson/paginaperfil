@@ -2,9 +2,7 @@ HTML
 # Minha segunda página Web
 Nome: Denilson da Silva Oliveira
 ## Sobre a atividade
-Esta é minha segunda página desenvolvida na disciplina<br>
-*Acrescentado a sessão contato na página<br>
-*Acrescentado css na página.
+Responsividade da página ( atividade 6)
 Programação Web.
 ## Tecnologias utilizadas
 - HTML

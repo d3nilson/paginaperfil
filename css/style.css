@@ -413,62 +413,66 @@ legend {
 /* TABLETS */
 /* ================================= */
 
-@media screen and (min-width: 601px)
-and (max-width: 1023px) {
-
-    h1 {
-        font-size: 30px;
-    }
+/* CELULAR - abaixo de 768px */
+@media screen and (max-width: 767px) {
 
     .principal {
-        flex-wrap: wrap;
-        gap: 15px;
+        flex-direction: column;
     }
-
-    .principal img {
-        width: 130px;
-    }
-
-    .principal li {
-        font-size: 16px;
-    }
-
-    /* CONTEÚDO */
 
     .conteudo {
         flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .lista-container {
+        grid-template-columns: 1fr;
+    }
+
+    .obj {
+        grid-template-columns: 1fr;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}
+
+/* TABLET - entre 768px e 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .principal {
+        flex-direction: row;
+    }
+
+    .conteudo {
+        flex-direction: row;
         gap: 30px;
         padding: 20px;
     }
 
-    /* CARTÕES */
+    .conteudo section {
+        flex: 1;
+    }
 
     .lista-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* OBJETIVOS */
-
     .obj {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
-        padding: 15px;
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    /* FORMULÁRIO */
-
     .form {
-        width: 90%;
+        width: 450px;
+        max-width: 100%;
     }
 
 }
 
-
-/* ================================= */
-/* RESPONSIVIDADE */
-/* COMPUTADORES */
-/* ================================= */
-
+/* DESKTOP - 1024px ou mais */
 @media screen and (min-width: 1024px) {
 
     .principal {
@@ -498,4 +502,3 @@ and (max-width: 1023px) {
     }
 
 }
-  
